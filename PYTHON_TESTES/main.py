@@ -1,5 +1,5 @@
 # aula 592, 593
-from calculadora import soma
+from calculadora import soma, subtrai
 
 # print(soma(10, 20))
 # print(soma(-10, 20))
@@ -12,3 +12,4 @@ except AssertionError as e:
 # O programa não para de funcionar porque o erro foi tratado
 
 print('Conta', soma(25,25))
+print('Subtração: ', subtrai(5, -5))
