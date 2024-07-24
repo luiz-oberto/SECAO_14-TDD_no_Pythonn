@@ -12,6 +12,22 @@ API:
 
     (dados _obtidos se torna True se dados obtidos com sucesso)
 """
+try:
+    import sys
+    import os
+
+    sys.path.append(
+        os.path.abspath(
+            os.path.join(
+                os.path.dirname(__file__),
+                '../src'
+            )
+        )
+    )
+
+except:
+    raise
+
 import unittest
 from unittest.mock import patch #-> me dá a possibilidade de criar daados fakes
 from pessoa import Pessoa
