@@ -18,5 +18,5 @@
 - por conta disso, qualquer um que chegar e ver os testes vai entender o programa faz e como funciona e vai entender o que fez de errado caso o programa quebre
 
 ## Doctest & Unittest (LEIA!)
-https://docs.python.org/pt-br/3/library/doctest.html
-https://docs.python.org/pt-br/3/library/unittest.html
+- https://docs.python.org/pt-br/3/library/doctest.html
+- https://docs.python.org/pt-br/3/library/unittest.html
